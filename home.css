@@ -1,0 +1,155 @@
+header, nav{
+    display: block;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+header{
+    unicode-bidi: isolate;
+}
+
+.header-menu.menu-layout2{
+    background-color: greenyellow;
+    box-shadow: 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 4);
+}
+
+
+.header-menu{
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    transition: all .3s ease-in-out;
+}
+
+.container{
+    max-width: 1210px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.align-items.center{
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.d-flex{
+    display: -ms-flexbox;
+    display: flex !important;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-lg-2{
+    -ms-flex: 0 0 16.666667%;
+    flex:0 0 16.666667%;
+    max-width: 16.666667%;
+    position: relative;
+    width: 100%;
+    padding-right:15px ;
+    padding-left: 15px;
+}
+
+.logo-area a{
+    width: 185px;
+    height: 90px;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #007bff;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.col-lg-8, .col-lg-10{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-10{
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col-lg-8{
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.search-box-wrap-layout2{
+    border-radius: 4px;
+    margin-top: 15px;
+    position: relative;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15);
+}
+
+.search-box-layout1{
+    background-color: white;
+    border-radius: 4px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.row.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
