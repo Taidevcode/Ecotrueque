@@ -1,34 +1,54 @@
-/* Estilos CSS */
-body {
+
+  .container {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-
-.product {
+    background-color:#ffffff;
+    color:  #007bff;
     display: flex;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-}
-
-.product img {
-    max-width: 200px;
-    margin-right: 120px;
-}
-
-.product-details {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .product-image img {
+    max-width: 80%; 
+    height: auto; 
+  }
+  
+  .product-details {
     flex: 1;
-}
+    margin-left: 20px;
+  }
 
-.selected {
-    background-color: #f0f0f0;
-    border: 2px solid #007bff;
+  .product-details h3{
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 200px;
+  }
+  
+  .contact-button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
     border-radius: 5px;
-}
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-button {
+    
+    margin-top: 50px;
+    width: 65px; /* Ancho del botón */
+    height: 65px; /* Altura del botón */
+    background-color: #ffcc00; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Forma circular */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }  
+
