@@ -1,0 +1,53 @@
+  .container {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    color:  #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .product-image img {
+    max-width: 80%; 
+    height: auto; 
+  }
+  
+  .product-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .product-details h3{
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 200px;
+  }
+  
+  .contact-button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-button {
+    
+    margin-top: 50px;
+    width: 65px; /* Ancho del botón */
+    height: 65px; /* Altura del botón */
+    background-color: #ffcc00; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Forma circular */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
