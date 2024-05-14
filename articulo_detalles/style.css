@@ -1,0 +1,99 @@
+
+  .container {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    color:  #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    
+  }
+  
+  .product-image img {
+    max-width: 75%; 
+    height: auto; 
+    object-fit: cover; /* Escala la imagen para llenar el contenedor manteniendo la relación de aspecto */
+  }
+  
+  .product-details {
+    flex: 1;
+    margin-left: px;
+  }
+
+  .product-details h3{
+    flex: 1;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  
+  .contact-button {
+    
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px; 
+    
+  }
+
+  .ofertar-button {
+    display: block;
+   
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 70px; 
+  }
+  
+
+  
+
+  .contact-button:hover {
+    background-color: #1206b4;
+  }
+  .ofertar-button:hover {
+    background-color: #1206b4;
+  }
+  
+  .favorite-button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: #ffcc00;
+    border: none;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    cursor: pointer;
+    margin-right: 100px; /* Mueve el botón 2 centímetros (20px) a la izquierda */
+    
+  }
+  
+  .favorite-button:hover {
+    background-color: #ff953e;
+  }
+
+  .top-bar {
+    
+    background-color: #0056b3; /* Color de fondo de la barra superior */
+    color: #0b0202; /* Color del texto */
+    padding: 40px 40px; /* Espaciado interno */
+  }
+
+  .footer {
+    background-color: #0056b3; /* Color de fondo de la sección inferior */
+
+    color: #fff; /* Color del texto */
+    padding: 60px; /* Espaciado interno */
+    text-align: center   ; /* Centrar el contenido */
+  }
+
+ 
