@@ -1,5 +1,5 @@
 .container-general {
-    background-color: cadetblue;
+    background: linear-gradient(to left, #efefbb, #d4d3dd); 
     padding-bottom: .9375rem;
     flex-direction: column;
     align-items: center;
