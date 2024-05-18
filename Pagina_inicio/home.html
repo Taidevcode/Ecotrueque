@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ecotrueque</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="/scripts_inicio/scrollreveal.js"></script>
+  <link rel="stylesheet" href="../Pagina_inicio/style.css">
+  <script src="../scripts_inicio/scrollreveal.js"></script>
   <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -17,7 +17,7 @@
       <div class="container hero">
 
         <div class="container-logo">
-          <a href="home.html" class="logo-area"><img alt="logo de la marca" class="img-fluid" src="/imagenes_inicio/logo.png"></a>
+          <a href="../Pagina_inicio/home.html" class="logo-area"><img alt="logo de la marca" class="img-fluid" src="../imagenes_inicio/logo.png"></a>
         </div>
 
         <div class="container-user">
@@ -36,7 +36,7 @@
     <div class="container-navbar"> 
       <nav class="navbar">
         <form class="search-form">
-          <input type="search" placeholder="¿Qué estás buscando?"/>
+            <input type="search" placeholder="¿Qué estás buscando?"/>
             <button class="btn-search">
               <i class="fa-solid fa-magnifying-glass"></i>
              </button>
@@ -45,21 +45,17 @@
 
         <i class="fa-solid fa-bars"></i>
         <ul class="menu">
-          <li><a href="#">Categorias</a></li>
           <li><a href="#">Publicaciones</a></li>
-          <li><a href="/Sobre_Nosotros/nosotros.html">Sobre nosotros</a></li>
-          <li><a href="/Blog/blog.html">Blog</a></li>
+          <li><a href="../Sobre_Nosotros/nosotros.html">Sobre nosotros</a></li>
+          <li><a href="../Blog/blog.html">Blog</a></li>
         </ul>
 
         <ul class="publicacion">
           <li><a href="#" class="btn publicar">Publicar Material</a></li>
         </ul> 
 
-      </nav>
-
-        
+      </nav>   
     </div>
-      
   </header>
 
 
@@ -195,7 +191,7 @@
 
   <div class="container-products">
 
-
+    <!--producto 1-->
     <div class="card-product">
       <div class="container-img">
         <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/05/25/16850005371352.jpg" alt="latas">
@@ -210,7 +206,7 @@
       </div>
       <div class="content-card-product">
         <h3>Latas</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_1.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -230,7 +226,7 @@
       </div>
       <div class="content-card-product">
         <h3>Llantas</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_2.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -250,7 +246,7 @@
       </div>
       <div class="content-card-product">
         <h3>Tubos de acero</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_3.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -271,7 +267,7 @@
       </div>
       <div class="content-card-product">
         <h3>Motherboard</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_4.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -292,7 +288,7 @@
       </div>
       <div class="content-card-product">
         <h3>Botellas de plastico</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_5.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -315,7 +311,7 @@
       </div>
       <div class="content-card-product">
         <h3>Listones de madera</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_6.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -336,7 +332,7 @@
       </div>
       <div class="content-card-product">
         <h3>Cajas de cartón</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_7.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -357,7 +353,7 @@
       </div>
       <div class="content-card-product">
         <h3>Telas de ropa</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_8.html">Ver publicación</a></button>
       </div>
     </div>
 
@@ -378,7 +374,7 @@
       </div>
       <div class="content-card-product">
         <h3>Botellas de vidrio</h3>
-        <button>Ver publicación</button>
+        <button><a href="/articulo_detalles/articulo_9.html">Ver publicación</a></button>
       </div>
      </div>
 
@@ -400,7 +396,7 @@
         </div>
         <div class="content-card-product">
           <h3>Papel madera</h3>
-          <button>Ver publicación</button>
+          <button><a href="/articulo_detalles/articulo_10.html">Ver publicación</a></button>
         </div>
       </div>
   </div>
@@ -500,7 +496,7 @@
         <p class="title-footer">Información de Contacto</p>
         <ul>
           <li>Teléfono: 123-45-678</li>
-          <li>Email</li>
+          <li>Email: Ecotrueque@gmail.com</li>
         </ul>
         <div class="social-icons">
           <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
@@ -543,6 +539,7 @@
 
 
 <script src="/scripts_inicio/efectos.js"></script>
+
 
 </body>
 </html>
