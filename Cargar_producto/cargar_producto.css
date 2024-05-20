@@ -294,6 +294,8 @@ body{
 /*fin del navbar*/
 
 
+
+
 /*main de contacto.html*/
 
 .main-container {
@@ -708,4 +710,23 @@ body{
 
 }
 
+.contact-button {
+  background-color: rgb(0, 189, 0); /* Fondo verde */
+  color: #fff; /* Texto blanco */
+  font-size: 1.4rem; /* Tamaño de la fuente */
+  padding: 1rem 2rem; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transiciones */
+}
 
+.contact-button:hover, .contact-button:focus {
+  transform: scale(1.1); /* Escala al pasar el ratón o enfocar */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
+}
+
+.contact-button:active {
+  transform: scale(0.9); /* Escala al hacer clic */
+}

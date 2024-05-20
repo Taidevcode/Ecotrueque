@@ -12,6 +12,7 @@
 </head>
 
 
+
 <body>
   <header class="main-header"> 
     <div class="container-hero">
@@ -63,45 +64,33 @@
 
 
 
-
+  <main class="main-container">
   <div class="container">
-    <div class="product-image">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Papelparamolde.jpg" alt="Producto">
-    </div>
     <div class="product-details">
-      <h2>Nombre del Producto</h2>
-      
-    
-      
-      <p>Descripción del producto.</p>
-      <p>Características</p>
-      
-      
-      
-      <a href="../articulo_detalles/contacto.html"><button class="contact-button">Contactar</button></a>
-      
-      
-      <h3>Consejos para un trueque eficaz</h3>
-      <p>•Evalúa el valor equitativo</p>
-      <p>•Comunicación clara</p>
-      <p>•Flexibilidad en la negociación: Sé flexible y considera diferentes opciones para llegar a un acuerdo satisfactorio.</p>
-      
-      
+        <h3>Contactar con el Usuario</h3>
+        <form action="/enviar_mensaje" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" rows="15" cols="75" required></textarea>
+            </div>
+            <div>
+              <label for="archivo">Adjuntar Archivo:</label>
+              <input type="file" id="archivo" name="archivo">
+          </div>
+            <button type="submit" class="contact-button">Enviar Mensaje</button>
+        </form>
     </div>
   </div>
-  
- 
-    
- 
-  
-  </body>
-  </html>
-  
-  
-
-
-
-
+  </main>
 
 
 
@@ -114,7 +103,7 @@
         <p class="title-footer">Información de Contacto</p>
         <ul>
           <li>Teléfono: 123-45-678</li>
-          <li>Email</li>
+          <li>Email: Ecotrueque@gmail.com</li>
         </ul>
         <div class="social-icons">
           <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
@@ -127,7 +116,6 @@
         <p class="title-footer">Información</p>
         <ul>
           <li><a href="/Sobre_Nosotros/nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="#">Publicaciones</a></li>
           <li><a href="/Blog/blog.html">Blog</a></li>
         </ul>
       </div>

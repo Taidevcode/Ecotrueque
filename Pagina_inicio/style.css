@@ -122,6 +122,15 @@ body{
 .navbar .fa-bars{
     display: none;
 }
+.navbar .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
 
 .menu{
     display: flex;
