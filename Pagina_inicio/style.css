@@ -206,8 +206,6 @@ body{
 }
 
 
-
-
 /*boton de publicar material*/
 .container-navbar .publicacion{
     display: flex;
@@ -557,7 +555,7 @@ body{
 }
 
 .card-product{
-    background-color: #50434349;
+    background-color: #c5bfaf;
     padding: 2rem 3rem;
     border-radius: .5rem;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
@@ -640,6 +638,32 @@ body{
     cursor: pointer;
     text-align: center;
 }
+
+.content-card-product a{
+    text-decoration: none;
+    font-size: 1.31rem;
+    color:#000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content-card-product a::after{
+    content: '';
+    width: 1.5rem;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom:-3px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    transition: all 3.ease;
+}
+
+.content-card-product a:hover{
+    color: #fff;
+}
+
 
 .content-card-product h3:hover{
     color: rgba(94, 241, 26, 0.911);
@@ -809,7 +833,6 @@ body{
     color: #000;
 
 }
-
 
 
 /*Footer*/

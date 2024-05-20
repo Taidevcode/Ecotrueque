@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+
+/*main*/
+
+.container-productos{
+    font-family: Arial, sans-serif;
+    color:  #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.container-productos h2{
+  font-size: 3rem;
+}
+
+.container-productos h3{
+  font-size: 2rem;
+}
+
+.container-productos p{
+  font-size: 1.5rem;
+}
+  
+.product-image img {
+    max-width: 75%;
+    height: auto; 
+    object-fit: cover; /* Escala la imagen para llenar el contenedor manteniendo la relación de aspecto */
+}
+  
+.product-details {
+    flex: 1;
+    margin-left: 0px;
+}
+
+.product-details h3{
+    flex: 1;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+  
+.contact-button {
+    
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px; 
+    
+}
+
+.ofertar-button {
+    display: block;
+   
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 70px; 
+}
+  
+
+  
+
+.contact-button:hover {
+  background-color: #1206b4;
+}
+
+.ofertar-button:hover {
+  background-color: #1206b4;
+}
+
+
+.container-productos .fa-heart{
+  font-size: 3rem;
+  color:rgb(0, 189, 0);
+  margin-top: 3rem;
+  cursor: pointer;
+
+}
+
+
+
+
+ 
