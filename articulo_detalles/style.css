@@ -22,8 +22,8 @@ body{
     margin:0 auto;
 
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
 }
 
@@ -35,7 +35,6 @@ body{
 
 .product-details {
   flex: 1;
-  margin-left: 50px; /* Ajusta este valor según sea necesario */
   padding: 40px; /* Agrega padding para más espacio interno */
   background-color: #f8f9fa; /* Un color de fondo suave para destacar */
   border-radius: 8px; /* Bordes redondeados para un mejor aspecto */

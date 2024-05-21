@@ -22,34 +22,20 @@ body{
     margin:0 auto;
 
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
 }
 
-.product-image img {
-  max-width: 75%; 
-  height: auto; 
-  object-fit: cover; /* Escala la imagen para llenar el contenedor manteniendo la relación de aspecto */
-}
 
 .product-details {
   flex: 1;
-  margin-left: 50px; /* Ajusta este valor según sea necesario */
   padding: 40px; /* Agrega padding para más espacio interno */
   background-color: #f8f9fa; /* Un color de fondo suave para destacar */
   border-radius: 8px; /* Bordes redondeados para un mejor aspecto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
 }
 
-.product-details h3 {
-  margin-left: 0px;
-  margin-top: 30px; /* Reduce el margen superior */
-}
-
-.product-details p {
-  margin-top: 15px; /* Agrega margen superior a los párrafos para separación */
-}
 
 
 .heading-1{
@@ -307,7 +293,6 @@ body{
   
 .main-container .container {
     padding: 5px;
-    border-radius: 8px;
 }
   
 
@@ -511,6 +496,7 @@ body{
 
 /*Media Queries --768px*/
 
+
 @media(max-width:768px){
     html{
         font-size: 55%;
@@ -543,65 +529,14 @@ body{
         display: none;
     }
 
-    .section-slider{
-        max-width: 60rem;
-        margin: 0 auto;
-        padding:  2;
-    }
 
-    .container-features{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 3rem 2rem;
-    }
-
-    .card-feature{
-        padding: 2rem;
-    }
-
-    .heading-1{
-        font-size: 2.4rem;
-    }
-
+    
     .heading-2{
         font-size: 2.4rem;
     }
 
-    .card-category{
-        height:12rem;
-    }
-
-    .card-category p{
-        font-size: 2rem;
-        text-align: center;
-        line-height: 1;
-    }
-
-    .card-category span{
-        font-size: 1.4rem;
-    }
-
-    .container-options{
-        align-items: center;
-    }
-
-    .container-options span{
-        text-align: center;
-        padding: 1rem 2rem;
-    }
-
-    .container-products{
-        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    }
-
-    .container-blogs{
-        overflow: hidden;
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-    .content-card-product h3{
-        font-size: 2.6rem;
-    }
+   
+   
 
     .menu-footer{
         grid-template-columns: repeat(2, 1fr);
@@ -620,75 +555,16 @@ body{
         font-size:42.5%;
     }
 
-    .section-slider{
-        max-width: 50rem;
-        padding: 2rem 0;
-    }
-
-    .heading-1{
-        font-size: 2.8rem;
-    }
 
     .heading-2{
         font-size: 2.8rem;
     }
 
-    .card-feature{
-        flex-direction: column;
-        border-radius: 2rem;
+    .main-container .container{
+        font-size: 2.6rem;
     }
 
-    .feature-content{
-        align-items: center;
-    }
-
-    .feature-content p{
-        font-size: 1.4rem;
-        text-align: center;
-    }
-
-    .feature-content span{
-        font-size: 1.6rem;
-        text-align: center;
-    }
-
-    .container-options span{
-        font-size: 1.8rem;
-        padding: 1rem 1.5rem;
-        font-weight: 500;
-    }
-
-    .container-products{
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    }
     
-    .content-card-product h3{
-        font-size: 2.2rem;
-    }
-
-    .blogs{
-        padding: 2rem;
-    }
-
-    .container-blogs{
-        grid-template-columns: 1fr;
-    }
-
-    .content-blog h3{
-        font-size: 2.4rem;
-    }
-
-    .content-blog span{
-        font-size: 1.8rem;
-    }
-
-    .content-blog p{
-        font-size: 2.2rem;
-    }
-
-    .btn-read-more{
-        font-size: 1.8rem;
-    }
 
     .contact-info ul,
     .information ul,
@@ -707,7 +583,6 @@ body{
     .content-card-product h3{
         font-size: 2.6rem;
     }
-
 }
 
 .contact-button {
